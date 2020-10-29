@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: lightskyblue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 75%;
+    height: 30px;
+    margin: 5px auto;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: rgb(117, 182, 223);
+}
+
+input {
+    width: 75%;
+    height: 30px;
+    margin: 5px auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: snow;
+    text-align: center;
+}
+
+.container {
+    background-color:slategray;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
