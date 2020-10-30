@@ -1,14 +1,14 @@
 /* Capturando os inputs */
-let numero1 = document.getElementById('input1')
-let numero2 = document.getElementById('input2')
-let result = document.getElementById('resultado')
+const numero1 = document.getElementById('input1')
+const numero2 = document.getElementById('input2')
+const result = document.getElementById('resultado')
 
 /* Capturando os botões */ 
-let soma = document.getElementById('soma')
-let sub = document.getElementById('sub')
-let mult = document.getElementById('mult')
-let div = document.getElementById('div')
-let clear = document.getElementById('clear')
+const soma = document.getElementById('soma')
+const sub = document.getElementById('sub')
+const mult = document.getElementById('mult')
+const div = document.getElementById('div')
+const clear = document.getElementById('clear')
 
 /* Adicionados eventos de click para todos os botões */
 soma.addEventListener('click', () => {
